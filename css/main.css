@@ -1,0 +1,15 @@
+canvas{
+    border:solid 1px #888;
+}
+
+input{
+    border:0;
+    padding:7px;
+    border:solid 1px #888;
+    margin:0 0 10px;
+    width:200px;
+}
+
+.capt_frame{
+    width:20%;
+}

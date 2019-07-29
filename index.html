@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="./js/whammy.js"></script>
+    <h1>capture</h1>
+    <p id="message">まずはコマ数と撮影の間隔(インターバル)を入力して、「準備OK」ボタンを押してください。カメラの許可を求められたら、「許可」をクリックしてください。</p>
+    <video id="video_area" autoplay></video>
+    <video id="videoItem" autoplay></video>
+    <p>
+        <label for="times">コマ数(枚) : </label>
+        <input id="times" type="number" min="1">
+    </p>
+    <p>
+        <label for="interval">時間間隔(秒) : </label>
+        <input id="interval" type="number" min="0" step="any">
+    </p>
+    <p>
+        <label for="fps">最終の動画フレームレート(fps) : </label>
+        <input id="fps" type="number" min="1">
+    </p>
+    <button onclick="action_btn()"><img src="./img/button00.png" alt="button" id="btn_img" width=160></img></button>
+    <hr>
+    <div class="cap"></div>
+</body>
+<script src="./js/camera.js"></script>
+
+</html>
