@@ -5,12 +5,18 @@ GoogleChromeで動作します。
 パソコンのWEBカメラを使用して連続した画像を撮影することができます。
 ノートPCの場合は、画面の開き方によって位置を固定できるので雲などの撮影に便利です。
 
+こちらで試すことができます
+<https://ikebe094.github.io/interval-camera/>
+
 以下のサイトから一部のコードを利用しています。
 
 I made this on a school assignment.
 Works with Google Chrome
 You can use the web camera on your computer to take continuous pictures.
 In the case of a laptop PC, the position can be fixed depending on how the screen is opened, which is useful for shooting clouds such as the sky.
+
+You can try it here
+<https://ikebe094.github.io/interval-camera/>
 
 Some codes are used from the following sites.
 
