@@ -1,8 +1,8 @@
 # interval-camera
 
 学校の課題で制作したものです。
-Google Chromeで動作します。iPhone、iPadではうまく動かないかもしれません。
-パソコンのWEBカメラを使用して連続した画像を撮影することができます。
+Google Chromeで動作します。iPhone、iPad、スマートフォン等ではうまく動かないかもしれません。
+パソコンのWEBカメラを使用して定期的に撮影した画像を撮影することができます。
 ノートPCの場合は、三脚が無くても画面の開き方によって位置を固定できるので、雲などの撮影に便利です。
 
 カメラで撮影された映像を一旦videoの領域に表示し、ここから1コマ取得することによって画像にしています。
@@ -19,7 +19,7 @@ Google Chromeで動作します。iPhone、iPadではうまく動かないかも
 
 
 I made this on a school assignment.
-Works with Google Chrome, but may not work well on iPhone or iPad.
+Works with Google Chrome, but may not work well on iPhone, iPad, smartphones.
 You can use the web camera on your computer to take continuous pictures.
 In the case of a laptop PC, the position can be fixed depending on how the screen is opened, which is useful for shooting clouds such as the sky.
 
